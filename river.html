@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>River Simulation</title>
+    <link rel="stylesheet" href="./river.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="river.js" defer></script>
+</head>
+
+<body>
+    <div id="submitDiv">
+        <label for="size">Enter river size: </label>
+        <input type="text" id="size">
+        <button type="submit" id="sub">Submit</button>
+    </div>
+
+    <div id="step">
+        <button id="restart" onclick="window.location.reload()">Restart</button>
+        <button type="submit" id="prog">Progress One Generation</button>
+    </div>
+
+    <!-- <img src="river.jpg" id="rivBack"> -->
+    <div id="mainBox" class="main">
+
+    </div><br>
+
+    <p id="generation"></p>
+</body>
+
+</html>

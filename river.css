@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+
+#generation{
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    width: 100%;
+    font-size: 20pt;
+}
+
+#mainBox{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    display: grid;
+    background-color: aquamarine;
+}
+
+.bear{
+    background-color: black;
+}
+
+.fish{
+    background-color: green;
+}
+
+.riv{
+    background-color: blue;
+}
+
+#step{
+    position: absolute;
+}
+
+#rivBack{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+}
